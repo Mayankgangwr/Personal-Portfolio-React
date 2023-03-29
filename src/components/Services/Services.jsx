@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -58,8 +58,10 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Web Developer"}
+            detail={
+              "Html, Css, JavaScript, PHP, MySQL, Mongo DB, React, Nodejs, Express"
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -70,10 +72,8 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            heading={"App Developer"}
+            detail={"Flutter, React Native, Kotlin, Etc.."}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
