@@ -25,14 +25,13 @@ const Works = () => {
           </span>
           <span>Companies & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            I started work as core php Developer with Amptus Designs i joined
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            them at 7 May 2021
             <br />
-            y dummy text of printingLorem
+            After Leaving Amptus At 12/04/2022 I joined as React Js Developer
             <br />
-            ispum is simpley dummy text of printing
+            with Link4india Now I am Working with them
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
