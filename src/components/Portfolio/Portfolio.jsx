@@ -24,16 +24,28 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
-          <img src={Sidebar} alt="" style={{ width: "100%" }} />
+          <img
+            src={Sidebar}
+            alt=""
+            style={{ width: "100%", height: "200px" }}
+          />
         </SwiperSlide>
         <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
-          <img src={Ecommerce} alt="" style={{ width: "100%" }} />
+          <img
+            src={Ecommerce}
+            alt=""
+            style={{ width: "100%", height: "200px" }}
+          />
         </SwiperSlide>
         <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
-          <img src={MusicApp} alt="" style={{ width: "100%" }} />
+          <img
+            src={MusicApp}
+            alt=""
+            style={{ width: "100%", height: "200px" }}
+          />
         </SwiperSlide>
         <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
-          <img src={HOC} alt="" style={{ width: "100%" }} />
+          <img src={HOC} alt="" style={{ width: "100%", height: "200px" }} />
         </SwiperSlide>
       </Swiper>
     </div>
