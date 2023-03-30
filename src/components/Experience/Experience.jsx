@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../Context";
 import "./Experience.css";
+import CountUp from "react-countup";
+
 const Experience = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -10,7 +12,7 @@ const Experience = () => {
       <div className="achievement">
         {/* darkMode */}
         <div className="circle" style={{ color: "#000" }}>
-          2+
+          <CountUp end={2} />+
         </div>
         <span style={{ color: darkMode ? "white" : "" }}>years </span>
         <span>Experience</span>
