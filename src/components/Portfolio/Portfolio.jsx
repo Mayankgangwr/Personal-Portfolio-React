@@ -23,17 +23,17 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
-        <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
+          <img src={Sidebar} alt="" style={{ width: "100%" }} />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+        <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
+          <img src={Ecommerce} alt="" style={{ width: "100%" }} />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
+        <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
+          <img src={MusicApp} alt="" style={{ width: "100%" }} />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
+        <SwiperSlide style={{ marginLeft: "10px", marginRight: "10px" }}>
+          <img src={HOC} alt="" style={{ width: "100%" }} />
         </SwiperSlide>
       </Swiper>
     </div>
