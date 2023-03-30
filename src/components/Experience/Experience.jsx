@@ -12,7 +12,7 @@ const Experience = () => {
       <div className="achievement">
         {/* darkMode */}
         <div className="circle" style={{ color: "#000" }}>
-          <CountUp end={2} />+
+          2+
         </div>
         <span style={{ color: darkMode ? "white" : "" }}>years </span>
         <span>Experience</span>
